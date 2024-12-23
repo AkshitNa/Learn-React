@@ -1,0 +1,20 @@
+Lesson 19 -> 
+
+Q-What is Children?
+
+In React, Children is a built-in prop that every React component receives by default.
+
+It refers to everything passed between the opening and closing tags of a component.
+
+It allows you to pass JSX (HTML-like code), strings, or even other components into a component.
+
+Q-When to Use children?
+
+To create reusable container components (like cards, modals, or layouts).
+To pass and render dynamic content inside a component.
+
+# Benefits of children
+
+Flexibility: Pass anything (HTML, components, text) as children.
+Reusability: Write one wrapper component and reuse it with different children.
+Clean Code: Keeps the parent component simple while delegating layout/rendering to the child.

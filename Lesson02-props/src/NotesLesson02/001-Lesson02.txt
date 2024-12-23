@@ -1,0 +1,5 @@
+Lesson 02 -> 
+
+1) We will create props, they are used to pass information from Parent component to child component.
+
+2) ProductProps.jsx

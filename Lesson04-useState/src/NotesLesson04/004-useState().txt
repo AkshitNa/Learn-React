@@ -1,0 +1,9 @@
+# useState
+
+In React, useState is a Hook that allows you to add state to functional components.
+It lets you create state variables and functions to update them.
+When you call useState, it returns an array with two elements: the current state value and a function to update it.
+
+You can use this function to change the state, and React will re-render the component to reflect the new state.
+This makes useState essential for managing dynamic data, such as user inputs or API responses,
+within functional components, enabling interactive and responsive user interfaces.

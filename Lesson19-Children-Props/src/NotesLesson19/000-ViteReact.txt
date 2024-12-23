@@ -1,0 +1,27 @@
+React js - React is a JavaScript library for building user interfaces that was developed by Facebook.
+It was released in 2013 and has since become one of the most popular tools for building web applications.
+
+# React was created by Jordan Walke, a software engineer at Facebook.
+
+## Step For Vite ##
+
+
+1) Make a folder and named it " 06 - React JS " and open it in VSCode.
+
+2) Use the command:  npm create vite@latest          then enter.
+
+3) Project name = " nautigun "
+
+NOTE: In "projectname" letters can not be CAPITAL or any space.
+
+4) Choose " react " and then " JavaScript ".
+
+5) Then go to your project folder => " cd nautigun "
+
+6) Install modules => " npm install "
+
+7) Now write the command to run your app => "npm run dev".
+
+Note: For GraphQL => npm install @apollo/client graphql
+
+Note: For Axiox => npm install axios

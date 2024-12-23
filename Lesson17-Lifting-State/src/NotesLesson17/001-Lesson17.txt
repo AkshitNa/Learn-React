@@ -1,0 +1,17 @@
+Lesson 17 -> 
+
+Q-What is Lifting State?
+
+Ans: "Lifting State Up" is when you move the state to the closest common parent component so
+that multiple components can share and use that same data.
+
+Imagine you have two components that need to know the same information — like an input field
+where you type your name, and another component that displays a greeting message based
+on that name. If both components need the same data (the name),
+it’s best to store that data in a parent component and "lift" it up so both child components can access it.
+
+Simple Example
+
+1. An InputComponent where you type a name.
+2. A GreetingComponent that says "Hello, [name]" based on the input.
+3. A ParentComponent that holds the shared state (the name) and passes it down to both components.

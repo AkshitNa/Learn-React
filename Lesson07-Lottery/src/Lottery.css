@@ -1,0 +1,16 @@
+h3{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+
+span{
+    border: 2px double black;
+    border-radius: 2px;
+    background-color: grey;
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 5px;
+}

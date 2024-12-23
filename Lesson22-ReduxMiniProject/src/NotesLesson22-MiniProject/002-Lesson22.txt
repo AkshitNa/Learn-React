@@ -1,0 +1,5 @@
+Lesson 22 -> 
+
+1) We will create a "REDUX-Mini-Project"
+
+

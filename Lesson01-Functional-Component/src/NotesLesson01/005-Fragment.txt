@@ -1,0 +1,3 @@
+1) <> </> It is a fragment to bundle multiples elements without using div.
+2) You can use div also but it adds an extra element.
+3) For only one element, there is no need of fragment or div.

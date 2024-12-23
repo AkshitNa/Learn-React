@@ -1,0 +1,60 @@
+# Redux Architecture
+
+A) UI + Button click
+B) Button click => Event occurs and it goes to Redux Store.
+C) In Redux Store => "Redux Reducer [Another function] which managess all the Events related to a partiular SLICE is called.
+D) The function inside Redux Reducer gets "called" and there is change in state of all the
+component subscribed to Redux Store.
+
+Note: Redux Reducer is a function which handles events.
+
+Note: We keep states in Redux Store seperately and not in the component which is
+using it.
+
+Example: 
+
+A) Counter Application UI + Button click
+B) Button click => "onClick" event occurs and it goes to Redux Store.
+C) In Redux Store => "Redux Reducer [Another function] which managess all the Events related to a partiular SLICE is called.
+D) The function inside Redux Reducer [INCREMENT FUNCTION] gets "called" and there is change in state of all the
+components subscribed to Redux Store. 
+
+Eg: Say the value of counter state increases to 1 from 0.
+
+Note: Redux Reducer is a function which handles events.
+
+# Guide to Redux
+
+1) Go to https://redux-toolkit.js.org/ and click on Get Started, here you can learn about it.
+
+2) First install Redux toolkit => npm install @reduxjs/toolkit react-redux
+
+3) Create a "Redux folder", inside it create "Slices Folder", now 
+
+Create a Slice => A Slice is basically a component which has special features like "State" and "ability to trigger an event",
+for example "CounterSlice". 
+
+Path =>> src -> Redux -> Slices -> Counter
+
+Note:: Store is made up of Slices.
+
+4) Create/Configure Redux Store [store.jsx] inside Redux folder.
+
+5) Update our store.jsx file by adding the Slice.
+
+6) Go to main.jsx and pass the store we have created.
+
+7) Understand the Use of "useSelector" and  "useDispatch" ::
+
+import {useDispatch, useSelector} from "react-redux"; 
+
+useSelector => It is used to use the partiular state.
+
+useDispatch => It is used to call the partiular function related to that state.
+
+For example: In counterSlice the state id = initialState (777) and the functions associated to it are: INCREMENT and DECREMENT.
+
+8) Now, call useDispatch and useSelector to use the SLICE in any component, we want freely.
+
+Note: Now we can use the React-Redux to let React components interact with the Redux store.
+We can read data from the store with useSelector, and dispatch actions using useDispatch.

@@ -1,0 +1,9 @@
+1) Create a folder => Utils and inside it create a file Provider.jsx
+
+2) Wrap the App component of main.jsx with Provider Component.
+
+3) Import useMyData and use the value you define inside of it anywhere::
+
+const data = useData();
+
+{data.passedValues}

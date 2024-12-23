@@ -1,0 +1,7 @@
+Lesson 10 -> 
+
+1) We will create a Gym Component
+
+2) We will call the data from our Gym API.
+
+3) Basically we are connecting our Backend With our FrontEnd.

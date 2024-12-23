@@ -1,0 +1,20 @@
+Practice 05
+
+useEffect working with API.
+
+# Steps to create Local Json Server in React Application [Fake API]
+1.	Go to https://www.npmjs.com/package/json-server
+2.	Create your React Application.
+3.	Inside your React App -> Terminal -> npm install -g json-server
+4.	Create a folder “Data” and inside it create a file db.json
+5.	Create JSON Data inside the file.
+6.	Now run this command: npx json-server --watch Data/db.json --port 8080  
+7.	Run the local Server: http://localhost:8080/product 
+8.	Go to the https://www.npmjs.com/package/json-server page,
+here you can see how you can call API in different ways.
+
+
+Note: In order to see result run both Server as well as Frontend.
+
+To run Frontend => npm run dev 
+To run Backend =>  npx json-server --watch Data/db.json --port 8080

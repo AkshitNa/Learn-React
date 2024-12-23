@@ -1,0 +1,39 @@
+{
+    "statusCode": 200,
+    "data": {
+      "statusMessage": "Request successful",
+      "pagination": {
+        "nextOffset": "abc123",
+        "currentPage": 1,
+        "totalPages": 10
+      },
+      "cards": [
+        {
+          "id": "101",
+          "type": "restaurant",
+          "name": "Pasta Palace",
+          "image": "https://images.pexels.com/photos/29796580/pexels-photo-29796580/free-photo-of-beautiful-grey-headed-yellow-finch-on-wooden-perch.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          "rating": 4.5,
+          "cuisines": ["Italian", "Fast Food"],
+          "location": {
+            "address": "123 Main Street",
+            "city": "Foodville",
+            "coordinates": {
+              "latitude": 28.4597,
+              "longitude": 77.0282
+            }
+          },
+          "deliveryTime": "30 mins",
+          "costForTwo": 500,
+          "offers": [
+            {
+              "id": "offer1",
+              "description": "Flat 20% off on orders above ₹500",
+              "validTill": "2024-12-31"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

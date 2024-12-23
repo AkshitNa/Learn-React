@@ -1,0 +1,5 @@
+Lesson 26 -> 
+
+We will learn how to use Toastify Library.
+
+It is used to pop up notifications / message features

@@ -1,0 +1,35 @@
+# Redux 
+
+<1> It is a tool or "STATE MANAGEMENT LIBRARY", which is like the memory of your application.
+
+Problem => Imagine your application is like a big box with lots of small compartments.
+Each compartment holds information, such as user details, items in a shopping cart, or settings preferences.
+Managing all this information directly can become messy, especially as your application grows.
+
+Solution => Redux helps by providing a central place to store all this information, which we can call the "store." [A Single Source of Truth].Instead of different parts of your application keeping their own separate pieces of information,
+they all use this central store. This makes it easier to keep track of what's going on and to make sure everything stays in sync.
+
+Examples: 
+
+Imagine you have a simple shopping app:
+
+Without Redux: Each part of your app, like the product list, the shopping cart, and the user profile, might handle its own state.
+If the user adds an item to the cart, you'd need to manually update the cart state and possibly other parts of the app that depend on the cart.
+
+With Redux: All the state (product list, shopping cart, user profile) is kept in one central store. When the user adds an item to the cart,
+Redux handles updating the central store. Any part of the app that needs to know about the cart (like the cart display or checkout page)
+can easily get the updated information from this store.
+
+# Benefits of Using Redux
+
+<1> Consistency: Because all the state is in one place, it's easier to ensure that the different parts of your app are consistent with each other.
+
+<2> Debugging: With a central store, you can track how the state changes over time, which makes it easier to find and fix bugs.
+
+<3> Scalability: As your app grows, managing state with Redux becomes more manageable than having each component handle its own state independently.
+
+In very simple terms, Redux helps keep your app's information organized and consistent, especially as it gets bigger and more complex.
+
+Note: Redux ek "STORE" [Single Source of Truth] create krta hai usme State and functions store rehte hai,
+For all those components who has subscribed the store [Connected to the store] re-render
+if there is change in state.

@@ -1,0 +1,5 @@
+Lesson 03 -> 
+
+1) We will combine our knowledge what we have learnt in L1 and L2.
+
+2) We will learn how to pass an array in a component.

@@ -1,0 +1,14 @@
+@import 'react-toastify/dist/ReactToastify.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    margin: 10px;
+  }
+
+button{
+  height: 100px;
+  width: 150px;
+}

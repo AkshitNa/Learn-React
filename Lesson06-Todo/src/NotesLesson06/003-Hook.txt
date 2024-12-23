@@ -1,0 +1,18 @@
+# Hook
+
+Hook is a special function that lets you use state and other React features in functional components. 
+Hooks were introduced in React 16.8 to provide state management and side effects in functional components,
+which were previously only possible in class components.
+
+Some common Hooks include:
+
+(1) useState: Allows you to add state to functional components.
+(2) useEffect: Lets you perform side effects, such as fetching data or updating the DOM, in functional components.
+
+(3) useContext: Provides a way to access the context value in functional components.
+(4) useReducer: Offers an alternative to useState for managing more complex state logic.
+
+(5) useRef: Allows you to access and interact with DOM elements directly.
+
+Hooks enable you to write cleaner, more reusable code by avoiding the complexities of
+class components and lifecycle methods.

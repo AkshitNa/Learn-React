@@ -1,0 +1,10 @@
+1) main.jsx is the main file having App.jsx componet [containing all the components]. 
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+
+let x = document.getElementById('root');
+
+ReactDOM.createRoot(x).render(<App />);

@@ -1,0 +1,6 @@
+In React, props are used to pass data from a parent component to a child component.
+
+They allow components to communicate with each other.
+
+For example, you can pass a user's name as a prop to a greeting component,
+which then displays a personalized message using that name.

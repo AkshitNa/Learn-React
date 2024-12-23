@@ -1,0 +1,14 @@
+Lesson 13 -> Lesson13-Routing-Navigation
+
+Special Section => Come here after learning useContext() that is after completing the course.
+
+//This is special way of using Routes
+
+1) We will learn how to protect our Routes.
+
+Note:: To create a protected route in a React application using react-router-dom,
+you'll need to ensure that certain routes are only accessible to authenticated users.
+
+2) npm install react-router-dom react-router
+
+3) Create Login Page and pass the state as lifting state

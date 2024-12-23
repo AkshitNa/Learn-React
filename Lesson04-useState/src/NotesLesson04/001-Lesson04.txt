@@ -1,0 +1,3 @@
+Lesson 04 -> 
+
+We will learn about Hook and use one hook => useState by making a "Counter Application"

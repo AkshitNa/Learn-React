@@ -1,0 +1,10 @@
+.item{
+    background-color: yellow;
+    color: black;
+    font-size: 2rem;
+    border: 20px double black;
+    border-radius: 50px;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}

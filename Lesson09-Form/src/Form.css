@@ -1,0 +1,16 @@
+button{
+    margin-left: 15px;
+    background-color: cadetblue;
+    padding: 0 5px 0 5px;
+    border: 5px double rgb(6, 237, 245);
+}
+
+h3{
+    color: orange;
+    font-size: 1.5rem;
+}
+
+input{
+    padding: 5px;
+    margin: 10px;
+}

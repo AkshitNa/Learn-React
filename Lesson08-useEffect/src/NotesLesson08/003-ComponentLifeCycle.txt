@@ -1,0 +1,19 @@
+# Before learning useEffect read the following: 
+
+# React component lifecycle :
+
+The React component lifecycle can be broken down into four main phases: 
+
+<1> Initialization => This is the phase where a new component is set up for the first time. 
+It involves setting up the initial state and any initial properties (props) that the component needs.
+
+<2> Mounting => Mounting is when the component is being added to the DOM (the structure of the web page).
+
+<3> Updating => Updating happens whenever there is a change in the component’s state or props, causing it to re-render.
+Here, Virtual DOM and Real DOM are compared.
+
+<4> Unmounting [Cleaning Up] => Unmounting is when the component is being removed from the DOM.
+
+Note: These phases ensure that React components can manage their setup, updates, and
+teardown processes efficiently and effectively.
+

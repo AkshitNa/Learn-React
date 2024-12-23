@@ -1,0 +1,5 @@
+Lesson 07 -> 
+
+1) We will learn create a "Lottery Application"
+
+

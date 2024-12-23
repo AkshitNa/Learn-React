@@ -1,0 +1,7 @@
+Lesson 01 -> 
+
+1) We will create our first Component.
+
+2) We will apply css to our Second Component.
+
+3) We will add both the componets multiple times in App.jsx.

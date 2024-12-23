@@ -1,0 +1,38 @@
+.butt{
+    font-size: 20px;
+    margin-left: 16px;
+    padding: 15px;
+    border-color: aqua;
+}
+
+.butt2{
+    font-size: 16px;
+    padding: 5px;
+    border-color: wheat;
+    width: 50%;
+    border-radius: 0 0 17px 17px;
+}
+
+.butt3{
+    font-size: 16px;
+    border-color: green;
+    border-radius: 17px;
+    margin-left: 4px;
+    box-shadow: 0 0 1px 1px green;
+}
+
+
+
+.title{
+    color: orange; 
+}
+
+.list{
+    list-style: none;
+    border: white;
+    background-color: wheat;
+    color: black;
+    font-weight: 700;
+    border-radius:  15px;
+    margin-bottom: 10px;
+}

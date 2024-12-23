@@ -1,0 +1,35 @@
+// Lesson11-ReduxMiniProject
+
+1) Load BootStrap
+
+2) Install => npm install react-icons --save
+
+Now, you are able to use Cart Icon => Go to "https://react-icons.github.io/react-icons/"
+
+3) Create Components Folder =>
+
+Create Components => NavBar, ProductList and SingleProduct
+Create CSS File   => Component.css [Note:: Jyada CSS Use Nahi Kri since I've BootStrap Framework]
+
+4) Design "NavBar"
+
+5) Design "ProductList"
+
+6) Design "SingleProduct"
+
+7) Let's Create our STORE::
+
+A) Create ProductSlice and use Redux-Thunk for asyn API Calling.
+
+B) Now, add store to main.jsx so it is accessible to all.
+
+From now, our Application will be working fine.
+
+C) Now, we will add the logic to add selective products to the cart [addToCart] and also
+   remove them if we don't want it [removeFromCart].
+
+D) Create CartCounterSlice and don't forget to import its value to "SingleProduct" and "NavBar [Cart Icon]"
+
+Note: D) is the main part of this Application, do it carefully.
+
+E) Congratulations!!

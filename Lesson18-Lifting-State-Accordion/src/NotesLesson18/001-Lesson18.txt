@@ -1,0 +1,28 @@
+Lesson 18 -> 
+
+Q-What is Lifting State?
+
+In React, lifting state refers to the practice of moving state up to a common ancestor component
+so that multiple child components can share and manage the same state. This is useful for
+communication and synchronization between sibling components.
+
+For example, in an Accordion component where each section can expand or collapse,
+lifting the state to a common parent ensures only one section is open at a time.
+
+# Accordion Working
+
+1. State Management: The Accordion component keeps track of the active section using activeIndex.
+
+2. Props Passing: The Accordion passes down the isActive prop to indicate if a section is open
+and the onClick handler to toggle sections.
+
+3. Toggle Logic:
+
+If the same section is clicked, it closes (index becomes null).
+If another section is clicked, it opens, and the previous one closes.
+
+Output
+
+Clicking on a section toggles its visibility.
+Only one section is open at a time due to centralized state in the parent.
+This separation of concerns and centralized state management is the essence of lifting state.

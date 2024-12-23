@@ -1,0 +1,24 @@
+Lesson 12
+
+Navigation Bar
+
+npm install react-router-dom
+
+ In this lesson we will learn "Routing". It basically means Navigation [To achieve SPA].
+
+1. Install react-router-dom: This library provides the tools for routing. Install it to begin setting up navigation.
+
+2. Create Page Components: Make individual components for each page you want (e.g., Home, About, Clock).
+These will represent different views in your app.
+
+3. Define Routes with createBrowserRouter: Set up a route configuration where each path (URL)
+links to a specific component. Optionally, add a default error component for unknown paths.
+
+4. Create a Layout Component: This component includes any common elements (like a navigation bar).
+Use Outlet as a placeholder where page-specific content will appear.
+
+5. Add Navigation with Link Components: Inside the layout component, add Link
+components for each route. These allow users to move between pages without reloading the app.
+
+6. Enable Routing with RouterProvider: Wrap the app with RouterProvider and pass in the
+router configuration. This activates routing throughout your app.

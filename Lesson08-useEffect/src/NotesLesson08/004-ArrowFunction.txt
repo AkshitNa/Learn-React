@@ -1,0 +1,41 @@
+<1> Immediate Function Call
+
+function handleClick() {
+  console.log('Button clicked!');
+}
+
+<button onClick={handleClick()}>Click Me</button>
+
+// Incorrect: This will call handleClick immediately, not when the button is clicked
+
+Note: If you call the function directly, it runs immediately during the rendering process,
+not when the event occurs. This can cause an infinite loop in some cases, especially in frameworks like React.
+
+Solution 01: By using an arrow function, you create a new function that wraps the call to handleClick.
+This new function will only run when the event occurs.
+
+function handleClick() {
+  console.log('Button clicked!');
+}
+
+<button onClick={() => handleClick()}>Click Me</button>
+
+// Correct: This will set up a function to be called when the button is clicked
+
+Note: Using an arrow function ensures the function inside is called only when
+the event (like a button click) happens, solving the infinite calling issue.
+
+OR
+
+Solution 02:
+
+function handleClick() {
+  console.log('Button clicked!');
+}
+
+<button onClick={handleClick}>Click Me</button>
+
+// Correct: This will set up a function to be called when the button is clicked
+
+Note: You can use any of the above two approaches but when you are passing arguments use ARROR Function.
+

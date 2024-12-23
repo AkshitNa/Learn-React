@@ -1,0 +1,19 @@
+# Redux Thunk
+
+1) Redux-Thunk is a middleware for Redux, it is present between your UI and Redux.
+
+2) This is useful for handling asynchronous operations like API calls in a Redux application.
+
+3) It's a way to delay actions in a Redux app => Instead of sending actions straight to the 
+   reducer, it lets you first do some asynchronous work (like fetching data) and then send the action.
+
+Note:: "reducers" are pure functions [Takes arguments and return something] and can not be asynchronous.
+        It is a good practice to call API using under Reducers which is possible using Redux Thunk as it handles
+        asynchronous functions and makes it synchronous for our "reducers".
+
+4) Redux-Tool Kit automatically confugure Redux-Thunk as asynchronous middleware,
+   we just need to import and implement it.
+
+   npm install redux-thunk [No Need]
+
+5) It has three functions: Pending (Loading), Fullfilled (Success) and Rejected (Error).

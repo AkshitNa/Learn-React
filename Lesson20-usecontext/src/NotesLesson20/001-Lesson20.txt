@@ -1,0 +1,31 @@
+Lesson 20 -> 
+
+1) We will learn the use of useContext() Hook
+
+2) It is used to pass data similar to REDUX.
+
+3) Here's a comparison between Redux and useContext:
+
+        | Feature            | Redux                                        | useContext                              |
+        |--------------------|----------------------------------------------|-----------------------------------------|
+        | **Purpose**        | State management across the entire app       | State sharing within a component tree   |
+
+        | **Data Structure** | Centralized store                            | Decentralized, no central store         |
+
+        | **Scalability**    | Suitable for large-scale applications        | Suitable for smaller apps or components |
+
+        | **Boilerplate**    | Requires more setup and boilerplate code     | Less setup, simpler to use              |
+
+        | **Performance**    | Efficient with large states and actions      | Can cause performance issues with large state 
+                                                                              updates                                 |
+
+        | **Debugging**      | Powerful debugging tools (Redux DevTools)    | Limited debugging tools                 |
+    
+
+        | **Data Flow**      | Unidirectional (strict state management)     | Can be unidirectional or bidirectional  |
+
+        | **Reactivity**     | State updates trigger re-renders via connect | State updates trigger re-renders directly |
+
+        | **Community Support** | Large community and ecosystem            | Smaller community, part of React        |
+
+        | **Dependencies**   | Requires Redux library and related packages  | Built into React, no extra dependencies |

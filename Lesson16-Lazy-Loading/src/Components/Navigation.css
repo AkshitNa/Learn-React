@@ -1,0 +1,11 @@
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.nav-bar> li{
+    list-style: none;
+    margin: 0 10px;
+    color: red;
+}

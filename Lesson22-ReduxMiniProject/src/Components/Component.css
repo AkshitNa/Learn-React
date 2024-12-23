@@ -1,0 +1,51 @@
+/* NavBar */
+
+.cart-item{ /* For Cart Icon */
+   position: relative;
+   left: 47rem;
+}
+
+.boxer{
+
+    border: 2px solid black;
+    padding: 2px;
+    width: 3rem;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+h3{
+    border: 2px solid black;
+    padding: 2px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+.navbar-brand{
+    font-size: 45px;
+    box-shadow:  0 0 0.9px gray;
+}
+
+/* SingleProduct*/
+
+.card{ /* To Color The Grid-Cards */
+    padding: 5px;
+    background-color: rgb(213, 236, 7);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+button{
+
+    height: 3rem;
+    width: 5rem;
+}
+
+/* Product List */
+
+/* This is very important */
+
+.product-view{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

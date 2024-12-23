@@ -1,0 +1,20 @@
+useEffect( Mounting-function[a.k.a callback function], return UnMounting-function, [dependency]);
+
+<1> useEffect accepts a function as it’s first argument.
+<2> This function handler will take care of any side effects you like when it gets run.
+<3> This function is a callback function.
+
+# Applications
+
+A) When you want to run some code when your component first appears on the screen [MOUNT], you can use useEffect to do that.
+
+Example: useEffectComponentA
+
+2) You can use useEffect to run code when specific pieces of "state or props" change.
+
+Example: useEffectComponentB
+
+3) Sometimes you need to clean up resources (like subscriptions or timers) 
+when your component is removed from the screen. useEffect can return a cleanup function to do this.
+
+Example: useEffectComponentC

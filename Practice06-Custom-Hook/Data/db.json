@@ -1,0 +1,26 @@
+{
+    "product": [
+      {
+        "id": 101,
+        "name": "Wireless Headphones",
+        "price": 59.99
+      },
+      {
+        "id": 102,
+        "name": "IPhone",
+        "price": 100
+      },
+      {
+        "id": 103,
+        "name": "Wire",
+        "price": 80.99
+      },
+      {
+        "id": 104,
+        "name": "Laptop",
+        "price": 99
+      }
+    ]
+  }
+  
+  

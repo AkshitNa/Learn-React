@@ -1,0 +1,40 @@
+GraphQL -> 
+
+1) Create GraphQL at the Backend [Java Spring Boot]
+
+2) Create Folder "Service" => ApolloClient.jsx [Connectivity]
+
+//Copy The Code
+
+import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
+
+const client = new ApolloClient({
+  link: new HttpLink({ uri: 'http://localhost:8080/graphql' }), // Change to your GraphQL endpoint
+  cache: new InMemoryCache(),
+});
+
+export default client;
+
+3) Wrap the main.jsx app with ApolloProvider.
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { ApolloProvider } from '@apollo/client';
+import App from './App';
+import client from './Service/ApolloClient';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+let x = document.getElementById('root');
+
+ReactDOM.createRoot(x).render( 
+<ApolloProvider client={client}>
+  <App />
+</ApolloProvider>);
+
+
+3) Create Folder "GraphQL" => queries.jsx [To Execute Queries as per as your wish]
+
+4) Use Query as per as your wish by importing ::
+
+import { useQuery, useMutation } from '@apollo/client';
+import {GET_BOOKS} from './GraphQL/queries'; 

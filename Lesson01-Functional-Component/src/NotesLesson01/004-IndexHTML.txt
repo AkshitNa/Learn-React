@@ -1,0 +1,1 @@
+1) In index.html, the main.jsx file send information.
